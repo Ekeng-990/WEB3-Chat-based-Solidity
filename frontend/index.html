@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decentralized Chat</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h1>💬 Web3 Chat</h1>
+        <button id="connectWallet">Connect Wallet</button>
+        <p id="account"></p>
+
+        <div id="chatBox">
+            <ul id="messages"></ul>
+        </div>
+
+        <input type="text" id="messageInput" placeholder="Type your message...">
+        <button id="sendMessage">Send</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.7.2/ethers.umd.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
