@@ -20,9 +20,6 @@ Chat berbasis Web3 tanpa server. Pesan langsung tersimpan di blockchain, tidak b
 3. **Buka `index.html`** di browser, lalu hubungkan Metamask.
 4. **Mulai chat!** Semua pesan akan langsung tersimpan di blockchain.
 
-## 📂 Struktur Proyek
-DecentralizedChatApp/ ├── contracts/ # Smart contract Solidity │ ├── Chat.sol ├── frontend/ # Tampilan UI dan logika frontend │ ├── assets/ │ │ ├── styles.css │ ├── js/ │ │ ├── script.js │ ├── index.html └── README.md
-
 
 ## 📌 Catatan
 - Gunakan jaringan **testnet** sebelum deploy ke mainnet.
